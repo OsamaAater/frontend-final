@@ -1,0 +1,12 @@
+:root {
+    --commerceDarkGreen: #006649;
+    --commerceLightGreen: #74BD43;
+    --commerceLightGrey: #F2F2F2;
+    --commerceDarkGrey: #d3d3d3;
+}
+
+.nopage {
+    font-size: 5em;
+    color: var(--commerceDarkGreen);
+    text-align: center; /* Center text horizontally */
+}

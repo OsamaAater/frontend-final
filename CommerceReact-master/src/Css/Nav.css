@@ -1,0 +1,44 @@
+@import url(https://db.onlinewebfonts.com/c/98b78079f5ee4295c40260785b4e4fbf?family=Cera+Pro+Bold);
+@font-face {
+    font-family: "Cera Pro Bold";
+    src: url("https://db.onlinewebfonts.com/t/98b78079f5ee4295c40260785b4e4fbf.eot");
+    src: url("https://db.onlinewebfonts.com/t/98b78079f5ee4295c40260785b4e4fbf.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/98b78079f5ee4295c40260785b4e4fbf.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/98b78079f5ee4295c40260785b4e4fbf.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/98b78079f5ee4295c40260785b4e4fbf.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/98b78079f5ee4295c40260785b4e4fbf.svg#Cera Pro Bold")format("svg");
+}
+
+:root {
+    --commerceDarkGreen: #006649;
+    --commerceLightGreen: #74BD43;
+    --commerceLightGrey: #F2F2F2;
+    --commerceDarkGrey: #d3d3d3;
+}
+
+.commercelogo {
+    height: 100px;
+    margin-right: auto;
+}
+.Navbar {
+    width: 100vw;
+    display: flex;
+    height: 150px;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #d3d3d3;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Cera Pro Bold";
+    color: var(--commerceDarkGreen);
+    font-size: 2em;
+}
+
+.NavList {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.NavItems {
+    display: flex;
+}
